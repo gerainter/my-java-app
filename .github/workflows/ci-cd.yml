@@ -12,4 +12,7 @@ jobs:
       - name: imprimir el mensaje
         run:
           echo "Hola mundo"
+      - name: dame la fecha
+        run: date
+      - run: ls -l      
   
